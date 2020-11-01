@@ -39,20 +39,25 @@ https://developers.google.com/calendar/quickstart/java
  */
 class EventPlacer {
     private static final String DEFAULT_EVENT_TITLE = "Tutor.com Session";
-    private static final String THE_GOOGLE_ID = "ericsteveanderson@gmail.com";
     private static final String CREDENTIALS_PATH = "client_secrets.json";
     private static final String EMAIL_TO_PATH = "email_recipients.txt";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     //private static final List<String> SCOPES = Collections.singletonList(CalendarScopes.CALENDAR);
-    private static final List<String> SCOPES = Arrays.asList(GmailScopes.GMAIL_SEND, CalendarScopes.CALENDAR);
     private static final String TOKENS_PATH = "tokens";
     private static final String NAME = "Calendar Importer";
     private static final String EMAIL_PATTERN = "..*@.*\\..*";
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("EEEE, MMMM d - hh:mm a");
+    private final List<String> theScopes;
     private Calendar theCalendarService;
     private Gmail theGmailService;
 
     EventPlacer() {
+        theScopes = new ArrayList<>();
+        theScopes.add(CalendarScopes.CALENDAR_EVENTS);
+        File myEmailRecipientsFile = new File(EMAIL_TO_PATH);
+        if (myEmailRecipientsFile.exists()) {
+            theScopes.add(GmailScopes.GMAIL_SEND);
+        }
         createServices();
     }
 
@@ -87,7 +92,7 @@ class EventPlacer {
                     continue;
                 }
                 Calendar.Events.Insert myRequest = theCalendarService.events()
-                        .insert(THE_GOOGLE_ID, myEvent);
+                        .insert("primary", myEvent);
                 myRequest.execute();
                 myInsertedCount++;
             } catch (IOException aE) {
@@ -118,7 +123,7 @@ class EventPlacer {
                 }
             }
             MimeMessage myMessage = new MimeMessage(Session.getDefaultInstance(new Properties()));
-            myMessage.setFrom(THE_GOOGLE_ID);
+            myMessage.setFrom("me");
             for (String myTo : myRecipients) {
                 myMessage.addRecipients(javax.mail.Message.RecipientType.TO, myTo);
             }
@@ -160,7 +165,7 @@ class EventPlacer {
         return Date.from(Instant.from(myZonedDateTime));
     }
 
-    private static Credential getCredentials(final NetHttpTransport aHttpTransport) throws IOException {
+    private Credential getCredentials(final NetHttpTransport aHttpTransport) throws IOException {
         // Load client secrets.
         File myCredentialsFile = new File(CREDENTIALS_PATH);
         if (!myCredentialsFile.exists()) {
@@ -175,7 +180,7 @@ class EventPlacer {
                 aHttpTransport,
                 JSON_FACTORY,
                 clientSecrets,
-                SCOPES)
+                theScopes)
                 .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(TOKENS_PATH)))
                 .setAccessType("offline")
                 .build();
