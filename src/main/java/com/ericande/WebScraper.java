@@ -1,9 +1,7 @@
 package com.ericande;
 
 import com.gargoylesoftware.htmlunit.*;
-import com.gargoylesoftware.htmlunit.html.HtmlForm;
-import com.gargoylesoftware.htmlunit.html.HtmlInput;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.*;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.File;
@@ -25,11 +23,13 @@ class WebScraper {
     private final WebClient theClient;
     private final PageSerializer theSerializer;
     private final boolean theSerializeOutput;
+    private final boolean theProcessNextWeek;
     private String theUserName;
     private String thePassword;
 
-     WebScraper(boolean aSerializeOutput) {
+     WebScraper(boolean aSerializeOutput, boolean aProcessNextWeek) {
          theSerializeOutput = aSerializeOutput;
+         theProcessNextWeek = aProcessNextWeek;
          theClient = new WebClient(BrowserVersion.CHROME);
         theClient.getOptions().setCssEnabled(true);
         theClient.getOptions().setJavaScriptEnabled(true); //Tutor.com schedule manager makes heavy use of js
@@ -80,6 +80,18 @@ class WebScraper {
             myTxtUserName.setValueAttribute(theUserName);
             myTxtPassword.setValueAttribute(thePassword);
             HtmlPage mySchedulePage = myButSignIn.click();
+            if (theProcessNextWeek) {
+                DomElement myWeekAhead = mySchedulePage.getElementByName("weekAhead");
+                if (myWeekAhead instanceof HtmlImage) {
+                    HtmlImage myNextWeekBtn = (HtmlImage) myWeekAhead;
+                    Page myNextWeek = myNextWeekBtn.click();
+                    if (myNextWeek.isHtmlPage()) {
+                        mySchedulePage = (HtmlPage) myNextWeek;
+                    } else {
+                        System.out.println("ERROR: Failed to load next week's information");
+                    }
+                }
+            }
             if (theSerializeOutput) {
                 theSerializer.savePage(mySchedulePage);
                 theSerializer.xmlSave(mySchedulePage);

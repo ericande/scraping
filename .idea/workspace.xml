@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="scraping:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f4f55259-9559-4729-af82-b2d624427abc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericande/EventPlacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericande/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericande/PageSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericande/ScheduleParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericande/EventPlacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericande/EventPlacer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericande/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericande/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,115 +24,6 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/PageSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/ScheduleParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ericande/PageSerializerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proguard.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4652#4653#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/R.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="115" column="56" selection-start-line="115" selection-start-column="56" selection-end-line="115" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/EventPlacer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="31" column="41" selection-start-line="31" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/client_secrets.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="329" selection-start-column="329" selection-end-column="329" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,212 +33,57 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>method</find>
-      <find>liststude</find>
-      <find>init</find>
-      <find>smgri</find>
-      <find>/form</find>
-      <find>&lt;form</find>
-      <find>lvSelMode</find>
-      <find>week of</find>
-      <find>primaryStage</find>
-      <find>exce</find>
-      <find>NotSeria</find>
-      <find>System.out.pr</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ericande/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/WordAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/ItemToPurchase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/ShoppingCartPrinter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Kata.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/haikuFun.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Worker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Lab8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Temp.java" />
-        <option value="$PROJECT_DIR$/classlist.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/CenterPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/group.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/ControlPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/PersonnelServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/TutorSchedulePage1.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/ScheduledHour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Temp.java" />
-        <option value="$PROJECT_DIR$/credentials.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Queue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/GUI.java" />
-        <option value="$PROJECT_DIR$/client_secrets.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Exercise16_10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/PageSerializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/EventPlacer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/ScheduleParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ericande/PageSerializerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="scraping" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="82" />
-    <option name="y" value="-28" />
-    <option name="width" value="2420" />
-    <option name="height" value="1310" />
-  </component>
+  <component name="ProjectId" id="1jWRCqrfeGrq5fon79OwQ8IbOab" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ericande" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ericande" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="tokens" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602733565205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603913384717" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last.edited.regexp" value="foe.dsa@ba." />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/ericande" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springy" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.ericande" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\IdeaProjects\scraping\src\test\java\com\ericande" />
+      <recent name="C:\Users\Eric\IdeaProjects\scraping\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ericande" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eric\IdeaProjects\scraping" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eric\IdeaProjects\scraping\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\IdeaProjects\scraping" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main skip Google">
-    <configuration name="Exercise16_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ericande.Exercise16_10" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ExampleGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ericande.ExampleGUI" />
       <module name="scraping" />
       <extension name="coverage">
         <pattern>
@@ -365,10 +95,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main Build JAR" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ericande.Main" />
+      <module name="scraping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericande.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="assembly:single" />
+      </method>
+    </configuration>
     <configuration name="Main export SchedMan" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ericande.Main" />
       <module name="scraping" />
       <option name="PROGRAM_PARAMETERS" value="skipGoogleCalendar serializeScheduleManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericande.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main plus nextWeek" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ericande.Main" />
+      <module name="scraping" />
+      <option name="PROGRAM_PARAMETERS" value="nextWeek" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ericande.*" />
@@ -406,6 +164,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ericande.Temp" />
+      <module name="scraping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericande.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ericande.tmp" />
+      <module name="scraping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericande.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PageSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scraping" />
       <extension name="coverage">
@@ -416,61 +200,33 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ericande" />
       <option name="MAIN_CLASS_NAME" value="com.ericande.PageSerializerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageSerializerTest.parseSavedPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="scraping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericande.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericande" />
-      <option name="MAIN_CLASS_NAME" value="com.ericande.PageSerializerTest" />
-      <option name="METHOD_NAME" value="parseSavedPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageSerializerTest.reloadSavedPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="scraping" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ericande.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ericande" />
-      <option name="MAIN_CLASS_NAME" value="com.ericande.PageSerializerTest" />
-      <option name="METHOD_NAME" value="reloadSavedPage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main skip Google" />
+      <item itemvalue="Application.Main Build JAR" />
       <item itemvalue="Application.Main export SchedMan" />
+      <item itemvalue="Application.Main skip Google" />
+      <item itemvalue="Application.Main plus nextWeek" />
+      <item itemvalue="Application.ExampleGUI" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Exercise16_10" />
-      <item itemvalue="JUnit.PageSerializerTest.reloadSavedPage" />
-      <item itemvalue="JUnit.PageSerializerTest.parseSavedPage" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.tmp" />
       <item itemvalue="JUnit.PageSerializerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PageSerializerTest" />
-        <item itemvalue="JUnit.PageSerializerTest.parseSavedPage" />
-        <item itemvalue="JUnit.PageSerializerTest.reloadSavedPage" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Exercise16_10" />
+        <item itemvalue="Application.tmp" />
+        <item itemvalue="Application.ExampleGUI" />
+        <item itemvalue="Application.Temp" />
+        <item itemvalue="JUnit.PageSerializerTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f4f55259-9559-4729-af82-b2d624427abc" name="Default Changelist" comment="" />
@@ -513,65 +269,80 @@
       <configuration name="PageSerializerTest" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41926345" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42917848" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.21409395" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32502708" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25135428" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.21409395" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+  <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#Plugins" timestamp="1603919417747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919417747" />
+    <state x="331" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604174467565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="331" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604174467565" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919232872" />
+    <state x="718" y="161" key="#xdebugger.evaluate" timestamp="1604174856596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="718" y="161" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1604174856596" />
+    <state width="1478" height="144" key="GridCell.Tab.0.bottom" timestamp="1604259032132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604259032132" />
+    <state width="1860" height="195" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919254913" />
+    <state width="1478" height="144" key="GridCell.Tab.0.center" timestamp="1604259032131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604259032131" />
+    <state width="1860" height="195" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919254912" />
+    <state width="1478" height="144" key="GridCell.Tab.0.left" timestamp="1604259032131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604259032131" />
+    <state width="1860" height="195" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919254911" />
+    <state width="1478" height="144" key="GridCell.Tab.0.right" timestamp="1604259032131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604259032131" />
+    <state width="1860" height="195" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919254912" />
+    <state width="1478" height="259" key="GridCell.Tab.1.bottom" timestamp="1604257802474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604257802474" />
+    <state width="1478" height="259" key="GridCell.Tab.1.center" timestamp="1604257802474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604257802474" />
+    <state width="1478" height="259" key="GridCell.Tab.1.left" timestamp="1604257802474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604257802474" />
+    <state width="1478" height="259" key="GridCell.Tab.1.right" timestamp="1604257802474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604257802474" />
+    <state width="1478" height="259" key="GridCell.Tab.2.bottom" timestamp="1604257802475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604257802475" />
+    <state width="1478" height="259" key="GridCell.Tab.2.center" timestamp="1604257802475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604257802475" />
+    <state width="1478" height="259" key="GridCell.Tab.2.left" timestamp="1604257802474">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604257802474" />
+    <state width="1478" height="259" key="GridCell.Tab.2.right" timestamp="1604257802475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="259" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604257802475" />
+    <state x="562" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1604169390846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="163" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1604169390846" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603919366995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603919366995" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,313 +350,27 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ericande/PageSerializerTest.java</url>
           <line>16</line>
-          <properties />
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ericande/Main.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ericande/PageSerializerTest.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>myPage.getElementById(&quot;selectable&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getElementById(&quot;selectable&quot;).getChildElementCount()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getElementById(&quot;divPS&quot;).getChildren()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getElementById(&quot;divPS&quot;).getChildElements()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getElementById(&quot;divPS&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getForms().get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getForms()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getBody().getChildNodes()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myPage.getBody()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.42.0/htmlunit-2.42.0.jar!/com/gargoylesoftware/htmlunit/WebRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.42.0/htmlunit-2.42.0.jar!/com/gargoylesoftware/htmlunit/html/HtmlForm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6768">
-          <caret line="459" selection-start-line="459" selection-end-line="459" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/ItemToPurchase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/ShoppingCartPrinter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/haikuFun.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/Lab8.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/Worker.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.42.0/htmlunit-2.42.0.jar!/com/gargoylesoftware/htmlunit/html/DomNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="916" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/FileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/javafx-src.zip!/javafx/scene/control/SelectionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="258" column="65" selection-start-line="258" selection-start-column="65" selection-end-line="258" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/CenterPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/TopPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/group.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/student.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/ControlPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/MainFrame.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/PersonnelServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2256">
-          <caret line="153" column="36" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage.ser">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="369" column="61" selection-start-line="369" selection-start-column="46" selection-end-line="369" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/ScheduledHour.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/Temp.java" />
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage1.ser">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericande/MainTest.java" />
-    <entry file="file://$PROJECT_DIR$/classlist.txt" />
-    <entry file="file://$PROJECT_DIR$/reverse.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/GUI.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/api-client/google-api-client/1.30.10/google-api-client-1.30.10.jar!/com/google/api/client/googleapis/services/AbstractGoogleClientRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="234" column="13" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client-jackson2/1.36.0/google-http-client-jackson2-1.36.0.jar!/com/google/api/client/json/jackson2/JacksonFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#1052#1053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client_secrets.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/Exercise16_10.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/client_secrets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="329" selection-start-column="329" selection-end-column="329" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.42.0/htmlunit-2.42.0.jar!/com/gargoylesoftware/htmlunit/html/HtmlPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TutorSchedulePage2.ser">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1636">
-          <caret line="9100" column="291" selection-start-line="9100" selection-start-column="283" selection-end-line="9100" selection-end-column="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/PageSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/ScheduleParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/WebScraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4652#4653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/R.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="115" column="56" selection-start-line="115" selection-start-column="56" selection-end-line="115" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericande/PageSerializerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericande/EventPlacer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" column="41" selection-start-line="31" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>scraping:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
