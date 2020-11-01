@@ -9,15 +9,14 @@ If you wish to save your tutor.com credentials, rather than prompting for them e
 credentials.txt in the top level folder for this project, with the first line containing your username/email and the
 second containing your password.
 
-The EventPlacer code which saves your events to your google calendar uses OAuth2 for authentication. This calendar
-is stored as THE_GOOGLE_ID in EventPlacer.java. You may need to do additional setup to authorize the application to 
-interact with your gmail and calendar accounts, including registering your copy of the application with Google's
-console and downloading a client_secrets.json file from there.  As such, do not expect google calendar event placing
-to work "out of the box."  If you want to get it to work for you, the Calendar API Java Quickstart Guide should
-be extremely helpful, and I direct you there for questions.
+The EventPlacer code which saves your events to your Google Calendar uses OAuth2 for authentication. You may need to 
+do additional setup to authorize the application to interact with your gmail and calendar accounts, including 
+registering your copy of the application with Google's console and downloading a client_secrets.json file from there.  
+As such, do not expect google calendar event placing to work "out of the box."  If you want to get it to work for you, 
+the Calendar API Java Quickstart Guide should be extremely helpful, and I direct you there for questions.
 https://developers.google.com/calendar/quickstart/java
 
-You can optionally send a digest of your scheduled hours for the week to recipients listed in the file 
+You can optionally send a digest of your scheduled hours for the week to recipients listed in the top-level file 
 email_recipients.txt
 
 ## Running the exporter
